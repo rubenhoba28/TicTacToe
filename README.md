@@ -65,8 +65,41 @@ The draw condition is checked by ensuring all cells are filled and no win condit
 2. Clone the repository:
    Create a virtual environment and activate it
    ```bash
-python3 -m venv venv
-source venv/bin/activate
+   python3 -m venv venv
+   source venv/bin/activate
+
+3. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+## How to Run
+
+### Backend
+1. Start the Flask server:
+   ```bash
+   python backend/app.py
+   
+2. The backend server runs on: http://localhost:5001
+
+### Frontend
+
+1. Serve the `frontend` directory:
+
+   - **Using Python**:
+     ```bash
+     python -m http.server 8000
+     ```
+
+   - **Using Node.js with `http-server` (if installed)**:
+     ```bash
+     npx http-server -p 8000
+     ```
+
+2. Open the frontend in your browser by visiting:  
+   [http://localhost:8000](http://localhost:8000)
+
+
+   
 
 
 

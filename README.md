@@ -60,7 +60,7 @@ The draw condition is checked by ensuring all cells are filled and no win condit
 1. Clone the repository:
    ```bash
    git clone https://github.com/rubenhoba28/TicTacToe.git
-   cd tic-tac-toe
+   cd TicTacToe
    
 2. Clone the repository:
    Create a virtual environment and activate it

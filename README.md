@@ -59,7 +59,7 @@ The draw condition is checked by ensuring all cells are filled and no win condit
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/tic-tac-toe.git](https://github.com/rubenhoba28/TicTacToe.git)
+   git clone https://github.com/rubenhoba28/TicTacToe.git
    cd tic-tac-toe
    
 2. Clone the repository:
@@ -97,6 +97,9 @@ The draw condition is checked by ensuring all cells are filled and no win condit
 
 2. Open the frontend in your browser by visiting:  
    [http://localhost:8000](http://localhost:8000)
+
+# You Can Play
+
 
 
    

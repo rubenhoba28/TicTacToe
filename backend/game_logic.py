@@ -12,7 +12,7 @@ class Game:
                 return "It's a draw!"
             self.current_player = 'O' if player == 'X' else 'X'
             return "Next move"
-        return "Invalid movee"
+        return "Invalid move"
 
     def check_win(self, player):
         for i in range(3):

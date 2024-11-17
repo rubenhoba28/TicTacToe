@@ -27,7 +27,7 @@ function createBoard() {
 function handleClick(e) {
     if (gameOver) return;
 
-    const row = e.target.dataset.row;
+    const roww = e.target.dataset.row;
     const col = e.target.dataset.col;
 
     if (!e.target.classList.contains('taken')) {

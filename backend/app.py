@@ -31,7 +31,7 @@ def handle_move(data):
 def handle_restart():
     global game
     game = Game()
-    print("Game restarted")
+    print("Game restartedd")
     emit('update_board', {'board': game.board, 'result': "Welcome to Tic Tac Toe Game! It's X's turn."}, broadcast=True)
 
 if __name__ == '__main__':
